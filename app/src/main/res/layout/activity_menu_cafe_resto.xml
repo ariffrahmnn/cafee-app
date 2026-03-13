@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MENU CAFE RESTO"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#D84315"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="🍽️ MENU MAKANAN"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#5D4037"
+            android:layout_marginBottom="12dp"/>
+
+        <ListView
+            android:id="@+id/lvMakanan"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="#FFFFFF"
+            android:padding="8dp"
+            android:layout_marginBottom="24dp"
+            android:divider="#CCCCCC"
+            android:dividerHeight="1dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="☕ MENU MINUMAN"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#5D4037"
+            android:layout_marginBottom="12dp"/>
+
+        <ListView
+            android:id="@+id/lvMinuman"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="#FFFFFF"
+            android:padding="8dp"
+            android:layout_marginBottom="24dp"
+            android:divider="#CCCCCC"
+            android:dividerHeight="1dp"/>
+
+        <Button
+            android:id="@+id/btnKembali"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KEMBALI"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="#8D6E63"
+            android:padding="16dp"/>
+
+    </LinearLayout>
+</ScrollView>
